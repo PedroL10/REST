@@ -18,6 +18,7 @@ public class PersonMapper {
         dto.setBirthDay(new Date());
         dto.setAddress(person.getAddress());
         dto.setGender(person.getGender());
+        dto.setHabilidade(person.getHabilidade());
         return dto;
     }
 
@@ -29,6 +30,7 @@ public class PersonMapper {
         // entity.setBirthDay(new Date());
         entity.setAddress(person.getAddress());
         entity.setGender(person.getGender());
+        entity.setHabilidade(person.getHabilidade());
         return entity;
     }
 }

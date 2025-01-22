@@ -12,6 +12,7 @@ public class PersonDTO implements Serializable {
     private String lastName;
     private String address;
     private String gender;
+  
 
     public PersonDTO() {}
 
@@ -54,6 +55,7 @@ public class PersonDTO implements Serializable {
     public void setGender(String gender) {
         this.gender = gender;
     }
+
 
     @Override
     public boolean equals(Object o) {

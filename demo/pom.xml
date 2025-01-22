@@ -61,10 +61,8 @@
 		  <groupId>org.modelmapper</groupId>
 		  <artifactId>modelmapper</artifactId>
 		  <version>${model-mapper.version}</version>
-		</dependency>
-		
+		</dependency>		
 			</dependencies>
-
 	<build>
 		<plugins>
 			<plugin>

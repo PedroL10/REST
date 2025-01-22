@@ -21,12 +21,14 @@ public class Person implements Serializable {
     @Column(name = "last_name", nullable = false, length = 80)
     private String lastName;
 
-
     @Column(nullable = false, length = 100)
     private String address;
 
     @Column(nullable = false, length = 6)
     private String gender;
+
+    @Column
+    private Integer habilidade;
 
     public Person() {}
 
@@ -68,6 +70,14 @@ public class Person implements Serializable {
 
     public void setGender(String gender) {
         this.gender = gender;
+    }
+
+    public Integer getHabilidade() {
+        return habilidade;
+    }
+
+    public void setHabilidade(Integer habilidade) {
+        this.habilidade = habilidade;
     }
 
     @Override
